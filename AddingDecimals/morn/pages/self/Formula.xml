@@ -1,0 +1,7 @@
+<View width="600" height="400" sceneColor="0xffffff" layers="1,1,0,0,第 1 层">
+  <Label text="0" styleSkin="png.comp.label" x="80" y="45" layer="1" font="微软雅黑" size="26" var="num1" letterSpacing="10" align="right" autoSize="right"/>
+  <Label text="0" styleSkin="png.comp.label" x="80" y="77" layer="1" font="微软雅黑" size="26" var="num2" letterSpacing="10" align="right" autoSize="right"/>
+  <Label text="+" styleSkin="png.comp.label" x="25" y="77" layer="1" font="微软雅黑" size="26" var="add" bold="true"/>
+  <Image skin="png.self.hline" x="33" y="113" layer="1" width="150" height="5" var="line"/>
+  <Label text="0" styleSkin="png.comp.label" x="80" y="121" layer="1" font="微软雅黑" size="26" var="sum" letterSpacing="10" autoSize="right"/>
+</View>

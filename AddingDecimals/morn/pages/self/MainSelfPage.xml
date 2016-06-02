@@ -1,0 +1,20 @@
+<View width="1024" height="720" sceneColor="0xffffff" layers="1,1,0,0,第 1 层">
+  <Image skin="png.self.topL" x="20" y="50" layer="1" sizeGrid="9,9,9,9" width="756" height="151"/>
+  <Image skin="png.self.vline" x="20" y="201" layer="1" width="1" height="501"/>
+  <Image skin="png.self.vline" x="774" y="201" layer="1" width="1" height="501"/>
+  <Button skin="png.self.button" x="800" y="661" layer="1" var="sortBtn" label="排序" labelFont="微软雅黑" labelSize="18"/>
+  <Button label="清除" skin="png.self.button" x="903" y="661" layer="1" var="clearBtn" labelFont="微软雅黑" labelSize="18"/>
+  <ComboBox labels="100，10，1,10，1，0.1,1，0.1，0.01,0.1，0.01，0.001" skin="png.self.combobox" x="800" y="100" layer="1" var="checkBox" selectedIndex="0" labelSize="18" labelFont="微软雅黑"/>
+  <Image skin="png.self.hline" x="20" y="451" layer="1" width="754"/>
+  <Image skin="png.self.hline" x="20" y="701" layer="1" width="754"/>
+  <Image skin="png.self.xline" x="272" y="202" layer="1" height="500"/>
+  <Image skin="png.self.xline" x="523" y="202" layer="1" height="500"/>
+  <CheckBox label="显示方块的数量" skin="png.self.checkbox" x="800" y="164" layer="1" labelSize="18" labelFont="微软雅黑" var="numberBox"/>
+  <CheckBox label="显示加数" skin="png.self.checkbox" x="800" y="372" layer="1" labelSize="18" labelFont="微软雅黑" var="showAddends"/>
+  <CheckBox label="显示和" skin="png.self.checkbox" x="830" y="416" layer="1" labelFont="微软雅黑" labelSize="18" var="showSum"/>
+  <Label text="设置方块的值" styleSkin="png.comp.label" x="801" y="65" layer="1" size="18" font="微软雅黑"/>
+  <RadioGroup labels="加数模式,和模式" skin="png.self.radio" x="808" y="252" layer="1" labelSize="18" layers="1,1,0,0,第 1 层" direction="vertical" space="10" selectedIndex="0" var="modelGroup"/>
+  <Label text="label" styleSkin="png.comp.label" x="201" y="115" layer="1" font="微软雅黑" size="18" var="baiLabel"/>
+  <Label text="label" styleSkin="png.comp.label" x="425" y="115" layer="1" font="微软雅黑" size="18" var="shiLabel"/>
+  <Label text="label" styleSkin="png.comp.label" x="613" y="115" layer="1" font="微软雅黑" size="18" var="geLabel"/>
+</View>

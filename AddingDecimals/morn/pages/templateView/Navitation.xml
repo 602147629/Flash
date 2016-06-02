@@ -1,0 +1,7 @@
+<View width="1024" height="100" sceneColor="0xffff" layers="1,1,0,0,第 1 层">
+  <Image skin="png.template.nagivation.title_bg" x="0" y="0" layer="1" sizeGrid="2,2,2,2" width="1024" height="40" var="img_titleBg"/>
+  <Button skin="png.template.nagivation.btn_MenuShow" x="912" y="6" layer="1" var="btn_showMenu"/>
+  <Button skin="png.template.nagivation.btn_titleShow" x="949" y="6" layer="1" var="btn_showBg"/>
+  <Button skin="png.template.nagivation.btn_ToolShow" x="986" y="6" layer="1" var="btn_tool"/>
+  <Label text="的弗拉的减肥爱的煎熬鹿鼎记" styleSkin="png.comp.label" x="24" y="7" layer="1" size="18" var="label_titleName"/>
+</View>
