@@ -1,0 +1,21 @@
+<View width="1024" height="60" sceneColor="0x99ff" layers="1,1,0,0,第 1 层">
+  <Image skin="png.template.animate_controller.img_controllerBg" x="21" y="5" layer="1"/>
+  <Image skin="png.template.animate_controller.img_cicleBg" x="60" y="9" layer="1"/>
+  <Image skin="png.template.animate_controller.img_cicleBg" x="748" y="8" layer="1"/>
+  <Image skin="png.template.animate_controller.img_controllerLine" x="194" y="20" layer="1" var="line"/>
+  <Image skin="png.template.animate_controller.img_line" x="195" y="27" layer="1" var="flag_line"/>
+  <Button skin="png.template.animate_controller.btn_stop" x="110" y="23" layer="1" var="btn_stop"/>
+  <Button skin="png.template.animate_controller.btn_pre" x="35" y="24" layer="1" var="btn_pre"/>
+  <Button skin="png.template.animate_controller.btn_point" x="194" y="20" layer="1" var="bar"/>
+  <Button skin="png.template.animate_controller.btn_play" x="75" y="21" layer="1" var="btn_play"/>
+  <Button skin="png.template.animate_controller.btn_pause" x="73" y="22" layer="1" width="16" height="16" var="btn_pause"/>
+  <Button skin="png.template.animate_controller.btn_next" x="135" y="25" layer="1" var="btn_next"/>
+  <Label text="100%" styleSkin="png.comp.label" x="706" y="22" layer="1" color="0xffffff" var="animate_label"/>
+  <Label text="100%" styleSkin="png.comp.label" x="919" y="21" layer="1" color="0xffffff" var="sound_label"/>
+  <Button skin="png.template.animate_controller.btn_soundOpen" x="758" y="20" layer="1" var="btn_soundOpen"/>
+  <Button skin="png.template.animate_controller.btn_sound_mute" x="761" y="20" layer="1" var="btn_mute"/>
+  <Image skin="png.template.animate_controller.img_controllerLine" x="807" y="21" layer="1" width="100" var="sound_line"/>
+  <Image skin="png.template.animate_controller.img_line" x="808" y="28" layer="1" var="sound_flagline"/>
+  <Button skin="png.template.animate_controller.btn_point" x="805" y="22" layer="1" var="soundbar"/>
+  <Button skin="png.template.animate_controller.btn_close" x="982" y="22" layer="1" var="close"/>
+</View>
